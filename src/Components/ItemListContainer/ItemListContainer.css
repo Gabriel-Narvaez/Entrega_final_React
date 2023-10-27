@@ -1,0 +1,27 @@
+/* Estilo de ItemListContainer */
+.item-list-container {
+  background-color: #f5f5f5;
+  /* Color de fondo */
+  padding: 10px;
+  /* Espaciado interno */
+  margin: 10px;
+  /* Márgenes exteriores */
+  text-align: center;
+  /* Alineación de texto al centro */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra */
+}
+
+/* Estilo para título h2 */
+.item-list-title {
+  font-size: 25px;
+  /* Tamaño de fuente */
+  margin: 0;
+  /* Elimina el margen predeterminado */
+  color: #0f12cf;
+  /* Color del texto */
+}
+
+h2 {
+  text-align: center;
+}

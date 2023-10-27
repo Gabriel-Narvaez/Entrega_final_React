@@ -1,0 +1,17 @@
+/* Estilo widget de carrito */
+.cart-widget {
+    display: flex; /* flexbox para el diseño */
+    align-items: center; /* Centrar verticalmente los elementos */
+  }
+  
+  /* Estilo imagen del carrito */
+  .imagenCarrito {
+    width: 50px;
+    margin-right: 10px; /* Separación de 10px a la derecha de la imagen */
+  }
+  
+  /* Estilo etiqueta <strong> (cantidad del carrito) */
+  .cart-count {
+    font-weight: bold; /* texto en negrita */
+  }
+  

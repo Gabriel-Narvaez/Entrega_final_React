@@ -2,40 +2,31 @@
 header {
   background-color: #333; /* Color de fondo */
   color: #fff; /* Color del texto */
-  padding: 20px 10px; /* Espaciado interno (10px a la izquierda y derecha) */
-  display: flex; /* Utilizar flexbox para el diseño */
-  justify-content: space-between; /* Distribuir los elementos en los extremos */
-  align-items: center; /* Centrar verticalmente los elementos */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 20px 10px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: end;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  margin: 0; 
+  position:relative; 
+}
+img {
+width: 150px;
 }
 
 /* Estilo para el título */
 h1 {
-  font-size: 36px; /* Tamaño de fuente */
-  margin: 0; /* Elimina el margen predeterminado */
+    font-size: 30px; /* Tamaño de fuente */  
 }
 
 /* Estilo para la barra de navegación */
-nav ul {
-  list-style: none; /* Elimina los marcadores de lista */
-  padding: 0; /* Elimina el espacio interno */
-}
-
 nav li {
   display: inline-block; /* Muestra los elementos en línea */
   margin-right: 20px; /* Espacio entre elementos */
   font-size: 18px; /* Tamaño de fuente */
-  text-transform: uppercase; /* Texto en mayúsculas */
-  transition: color 0.3s; /* Transición de color suave */
+   transition: color 0.3s; /* Transición de color suave */
 }
 
-nav li:hover {
-  color: #ff6600; /* Cambia el color al pasar el mouse */
-}
-
-/* Estilo para el carrito de compras (supongo que es un ícono) */
-/* Personaliza la imagen del carrito según tus necesidades */
 .cart-icon {
-  margin-left: 20px; /* Espacio entre el carrito y el contenido */
+    margin-left: 20px; /* Espacio entre el carrito y el contenido */
 }

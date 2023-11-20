@@ -1,32 +1,30 @@
-/* Estilo para el encabezado */
 header {
-  background-color: #333; /* Color de fondo */
-  color: #fff; /* Color del texto */
-  padding: 20px 10px; 
-  display: flex; 
-  justify-content: space-between; 
+  background-color: #333;
+  color: #fff;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
   align-items: end;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-  margin: 0; 
-  position:relative; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  position: relative;
 }
+
 img {
-width: 150px;
+  width: 150px;
 }
 
-/* Estilo para el título */
 h1 {
-    font-size: 30px; /* Tamaño de fuente */  
+  font-size: 30px;
 }
 
-/* Estilo para la barra de navegación */
 nav li {
-  display: inline-block; /* Muestra los elementos en línea */
-  margin-right: 20px; /* Espacio entre elementos */
-  font-size: 18px; /* Tamaño de fuente */
-   transition: color 0.3s; /* Transición de color suave */
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+  transition: color 0.3s;
 }
 
 .cart-icon {
-    margin-left: 20px; /* Espacio entre el carrito y el contenido */
+  margin-left: 20px;
 }

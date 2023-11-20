@@ -1,11 +1,10 @@
-/* Estilo para el contenedor de productos */
+
 .contenedorProductos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   
-  /* Estilo para cada elemento de la lista de productos */
   .item {
     border: 1px solid #e1e1e1;
     padding: 20px;

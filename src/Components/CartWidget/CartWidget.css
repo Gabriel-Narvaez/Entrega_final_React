@@ -1,15 +1,13 @@
-/* Estilo de carrito */
+
 .cart-widget {
     display: flex; 
     align-items: center; 
   }
-  
-  
+    
   .imagenCarrito {
     width: 50px;
     margin-right: 10px;
-  }
-  
+  }  
   
   .cart-count {
     font-weight: bold; 

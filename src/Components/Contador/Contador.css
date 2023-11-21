@@ -1,44 +1,43 @@
 .contador-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-  }  
- 
-  .contador-button {
-    background-color: #e90d0d;
-    color: #fff;
-    font-size: 1.2rem;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin: 0 10px; 
-  }
-  
-  .contador-button:hover {
-    background-color: #eb9494;
-  }
-  
-   .contador-number {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 0 15px; 
-  }
-  
-    .contador-add-button {
-    background-color: #e90d0d; 
-    color: #fff;
-    font-size: 1.2rem;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .contador-add-button:hover {
-    background-color: #eb9494; 
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}  
+
+.contador-button {
+  background-color: #e90d0d;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px; 
+}
+
+.contador-button:hover {
+  background-color: #eb9494;
+}
+
+ .contador-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 15px; 
+}
+
+  .contador-add-button {
+  background-color: #e90d0d; 
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contador-add-button:hover {
+  background-color: #eb9494; 
+}

@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { CarritoContext } from "../../Context/carritoContext"
 import { Link } from "react-router-dom"
 import CartItem from "../CartItem/CartItem"
+import './Cart.css';
 
 
 const Cart = () => {
@@ -17,7 +18,7 @@ const Cart = () => {
     }
 
     return (
-        <div>
+        <div className="cart-container">
             {
                 carrito.map(producto => <CartItem key={producto.item.id} {...producto}/>)
             }

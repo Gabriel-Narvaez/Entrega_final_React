@@ -26,11 +26,7 @@ agregarAlCarrito(item, cantidad);
       <h3>ID: {id} </h3>
       <img src={img} alt={nombre} />
       <p>Descripción: {descripcion}</p>
-
-      {
-        //Acá empleamos la lógica de montaje y desmontaje del contador
-      }
-
+    
       {
         agregarCantidad > 0 ? (<Link to="/cart">Terminar Compra</Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
       }

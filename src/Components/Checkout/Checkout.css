@@ -1,61 +1,73 @@
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.checkout-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f5f5f5;
+    border: 1px solid #ddd;
     border-radius: 8px;
+    background-color: #fff;
 }
 
-label {
+.checkout-container h2 {
+    text-align: center;
+    color: #fffbfb;
+}
+
+.checkout-container form {
+    margin-top: 20px;
+}
+
+.checkout-container div {
+    margin-bottom: 15px;
+}
+
+.checkout-container label {
     display: block;
     margin-bottom: 5px;
+    color: #333;
 }
 
-input {
+.checkout-container input {
     width: 100%;
     padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-button:hover {
-    background-color: #b30000;
-}
-
-strong {
+.checkout-container button {
     display: block;
-    margin-top: 10px;
-    color: #4caf50;
-}
-
-input {
-    padding: 8px;
-    margin-bottom: 16px;
-}
-
-/* Estilos para el botón */
-button {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
+    width: 100%;
+    padding: 10px;
     background-color: #e90d0d;
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
+.checkout-container button:hover {
+    background-color: #c82333;
+}
 
-
-/* Media query para hacer el formulario responsive */
-@media only screen and (max-width: 600px) {
-    div {
+@media screen and (max-width: 600px) {
+    .checkout-container {
         padding: 10px;
     }
 
-    input {
-        width: 100%;
+    .checkout-container h2 {
+        font-size: 20px;
+    }
+
+    .checkout-container label {
+        font-size: 14px;
+    }
+
+    .checkout-container input {
+        font-size: 14px;
+    }
+
+    .checkout-container button {
+        font-size: 14px;
     }
 }

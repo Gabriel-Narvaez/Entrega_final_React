@@ -76,7 +76,7 @@ const Checkout = () => {
     }
 
     return (
-        <div>
+        <div className="checkout-container">
             <h2>Checkout</h2>
 
             <form onSubmit={manejadorFormulario}>

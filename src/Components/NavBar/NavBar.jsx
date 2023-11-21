@@ -4,7 +4,7 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <header>
+    <header className="navbar-container">
       <Link to="/">
         <img src={"/img/logo.png"} alt="logo motoshop" />
       </Link>
